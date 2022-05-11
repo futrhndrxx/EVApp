@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A105DEADCD21EE8E2E5461F /* Pods_EVNav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327D4CAAE61E7E272FADEF9A /* Pods_EVNav.framework */; };
+		F1C717692823A0BF0063B9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C717682823A0BF0063B9E8 /* AppDelegate.swift */; };
+		F1C7176B2823A0BF0063B9E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C7176A2823A0BF0063B9E8 /* SceneDelegate.swift */; };
+		F1C7176D2823A0BF0063B9E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C7176C2823A0BF0063B9E8 /* ViewController.swift */; };
+		F1C717702823A0BF0063B9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C7176E2823A0BF0063B9E8 /* Main.storyboard */; };
+		F1C717722823A0C40063B9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C717712823A0C40063B9E8 /* Assets.xcassets */; };
+		F1C717752823A0C40063B9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C717732823A0C40063B9E8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		327D4CAAE61E7E272FADEF9A /* Pods_EVNav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVNav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C66EFA9C3EA7AEE5008984 /* Pods-EVNav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVNav.debug.xcconfig"; path = "Target Support Files/Pods-EVNav/Pods-EVNav.debug.xcconfig"; sourceTree = "<group>"; };
+		7FAAB837B2D90D80C9E6D2E3 /* Pods-EVNav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVNav.release.xcconfig"; path = "Target Support Files/Pods-EVNav/Pods-EVNav.release.xcconfig"; sourceTree = "<group>"; };
+		F1C717652823A0BF0063B9E8 /* EVNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C717682823A0BF0063B9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1C7176A2823A0BF0063B9E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1C7176C2823A0BF0063B9E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1C7176F2823A0BF0063B9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C717712823A0C40063B9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C717742823A0C40063B9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1C717762823A0C40063B9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C717622823A0BF0063B9E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A105DEADCD21EE8E2E5461F /* Pods_EVNav.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659ED631FF13A937CA4EDA18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36C66EFA9C3EA7AEE5008984 /* Pods-EVNav.debug.xcconfig */,
+				7FAAB837B2D90D80C9E6D2E3 /* Pods-EVNav.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2EFC744130BFF0B61B348A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327D4CAAE61E7E272FADEF9A /* Pods_EVNav.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C7175C2823A0BF0063B9E8 = {
+			isa = PBXGroup;
+			children = (
+				F1C717672823A0BF0063B9E8 /* EVNav */,
+				F1C717662823A0BF0063B9E8 /* Products */,
+				659ED631FF13A937CA4EDA18 /* Pods */,
+				C2EFC744130BFF0B61B348A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C717662823A0BF0063B9E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C717652823A0BF0063B9E8 /* EVNav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C717672823A0BF0063B9E8 /* EVNav */ = {
+			isa = PBXGroup;
+			children = (
+				F1C717682823A0BF0063B9E8 /* AppDelegate.swift */,
+				F1C7176A2823A0BF0063B9E8 /* SceneDelegate.swift */,
+				F1C7176C2823A0BF0063B9E8 /* ViewController.swift */,
+				F1C7176E2823A0BF0063B9E8 /* Main.storyboard */,
+				F1C717712823A0C40063B9E8 /* Assets.xcassets */,
+				F1C717732823A0C40063B9E8 /* LaunchScreen.storyboard */,
+				F1C717762823A0C40063B9E8 /* Info.plist */,
+			);
+			path = EVNav;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C717642823A0BF0063B9E8 /* EVNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C717792823A0C40063B9E8 /* Build configuration list for PBXNativeTarget "EVNav" */;
+			buildPhases = (
+				A7357BAF6DAAEE4ED6CF0F76 /* [CP] Check Pods Manifest.lock */,
+				F1C717612823A0BF0063B9E8 /* Sources */,
+				F1C717622823A0BF0063B9E8 /* Frameworks */,
+				F1C717632823A0BF0063B9E8 /* Resources */,
+				73C9CDAFFFD9774CCD36F5E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVNav;
+			productName = EVNav;
+			productReference = F1C717652823A0BF0063B9E8 /* EVNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C7175D2823A0BF0063B9E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F1C717642823A0BF0063B9E8 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F1C717602823A0BF0063B9E8 /* Build configuration list for PBXProject "EVNav" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C7175C2823A0BF0063B9E8;
+			productRefGroup = F1C717662823A0BF0063B9E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C717642823A0BF0063B9E8 /* EVNav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C717632823A0BF0063B9E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C717752823A0C40063B9E8 /* LaunchScreen.storyboard in Resources */,
+				F1C717722823A0C40063B9E8 /* Assets.xcassets in Resources */,
+				F1C717702823A0BF0063B9E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73C9CDAFFFD9774CCD36F5E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVNav/Pods-EVNav-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVNav/Pods-EVNav-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EVNav/Pods-EVNav-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7357BAF6DAAEE4ED6CF0F76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EVNav-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C717612823A0BF0063B9E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C7176D2823A0BF0063B9E8 /* ViewController.swift in Sources */,
+				F1C717692823A0BF0063B9E8 /* AppDelegate.swift in Sources */,
+				F1C7176B2823A0BF0063B9E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1C7176E2823A0BF0063B9E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C7176F2823A0BF0063B9E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1C717732823A0C40063B9E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C717742823A0C40063B9E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1C717772823A0C40063B9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1C717782823A0C40063B9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C7177A2823A0C40063B9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C66EFA9C3EA7AEE5008984 /* Pods-EVNav.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCH9WVWKQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EVNav/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = pk.eyJ1IjoiZGllZ29hbTI4IiwiYSI6ImNsMnI2MTgydTBnMTYzZXF2MDdsZHlyYXcifQ.P17ggszhO1Z2Rroq4f6vNA;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Shows your location on the map and helps improve the map";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegoam7.EVNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1C7177B2823A0C40063B9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAAB837B2D90D80C9E6D2E3 /* Pods-EVNav.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCH9WVWKQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EVNav/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = pk.eyJ1IjoiZGllZ29hbTI4IiwiYSI6ImNsMnI2MTgydTBnMTYzZXF2MDdsZHlyYXcifQ.P17ggszhO1Z2Rroq4f6vNA;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Shows your location on the map and helps improve the map";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegoam7.EVNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C717602823A0BF0063B9E8 /* Build configuration list for PBXProject "EVNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C717772823A0C40063B9E8 /* Debug */,
+				F1C717782823A0C40063B9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C717792823A0C40063B9E8 /* Build configuration list for PBXNativeTarget "EVNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C7177A2823A0C40063B9E8 /* Debug */,
+				F1C7177B2823A0C40063B9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C7175D2823A0BF0063B9E8 /* Project object */;
+}
