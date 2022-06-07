@@ -1,4 +1,25 @@
 PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - MapboxCommon (21.2.1)
   - MapboxCoreMaps (10.4.2):
     - MapboxCommon (~> 21.2)
@@ -29,10 +50,12 @@ PODS:
   - Turf (2.4.0)
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.0)
   - MapboxNavigation (~> 2.4)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - MapboxCommon
     - MapboxCoreMaps
     - MapboxCoreNavigation
@@ -47,6 +70,7 @@ SPEC REPOS:
     - Turf
 
 SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
   MapboxCommon: e518bf4e496722343c77177943cf3c11efe3fc9e
   MapboxCoreMaps: 227b33943eb5b257fdebc56474007e214981f43d
   MapboxCoreNavigation: 3ba154924200eacae364ed61805a4f29926cd217
@@ -60,6 +84,6 @@ SPEC CHECKSUMS:
   Solar-dev: 4612dc9878b9fed2667d23b327f1d4e54e16e8d0
   Turf: 60b93cfdc62758526bc7bf1ef191a829aeb9694d
 
-PODFILE CHECKSUM: 1e89f15cbceddf8882130cb247f3517205f795f7
+PODFILE CHECKSUM: 74356ba3685f06d767674b1d4f1eb4af5eaa651e
 
 COCOAPODS: 1.11.3

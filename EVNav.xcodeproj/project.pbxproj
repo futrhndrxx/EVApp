@@ -8,26 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		8A105DEADCD21EE8E2E5461F /* Pods_EVNav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327D4CAAE61E7E272FADEF9A /* Pods_EVNav.framework */; };
+		F144447F2834D03400C9B190 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144447E2834D03400C9B190 /* ProfileViewController.swift */; };
+		F15E3683284EAED2000FAF6F /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E3682284EAED2000FAF6F /* SheetViewController.swift */; };
+		F15E3685284EAF07000FAF6F /* Sheet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E3684284EAF07000FAF6F /* Sheet.storyboard */; };
 		F1C717692823A0BF0063B9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C717682823A0BF0063B9E8 /* AppDelegate.swift */; };
 		F1C7176B2823A0BF0063B9E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C7176A2823A0BF0063B9E8 /* SceneDelegate.swift */; };
-		F1C7176D2823A0BF0063B9E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C7176C2823A0BF0063B9E8 /* ViewController.swift */; };
 		F1C717702823A0BF0063B9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C7176E2823A0BF0063B9E8 /* Main.storyboard */; };
 		F1C717722823A0C40063B9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C717712823A0C40063B9E8 /* Assets.xcassets */; };
 		F1C717752823A0C40063B9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C717732823A0C40063B9E8 /* LaunchScreen.storyboard */; };
+		F1F5D9A7283370A900F16508 /* CarInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5D9A6283370A900F16508 /* CarInfoViewController.swift */; };
+		F1F5D9A9283370C700F16508 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5D9A8283370C700F16508 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		327D4CAAE61E7E272FADEF9A /* Pods_EVNav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVNav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C66EFA9C3EA7AEE5008984 /* Pods-EVNav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVNav.debug.xcconfig"; path = "Target Support Files/Pods-EVNav/Pods-EVNav.debug.xcconfig"; sourceTree = "<group>"; };
 		7FAAB837B2D90D80C9E6D2E3 /* Pods-EVNav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVNav.release.xcconfig"; path = "Target Support Files/Pods-EVNav/Pods-EVNav.release.xcconfig"; sourceTree = "<group>"; };
+		F144447E2834D03400C9B190 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F15E3682284EAED2000FAF6F /* SheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewController.swift; sourceTree = "<group>"; };
+		F15E3684284EAF07000FAF6F /* Sheet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sheet.storyboard; sourceTree = "<group>"; };
 		F1C717652823A0BF0063B9E8 /* EVNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C717682823A0BF0063B9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1C7176A2823A0BF0063B9E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1C7176C2823A0BF0063B9E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1C7176F2823A0BF0063B9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1C717712823A0C40063B9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1C717742823A0C40063B9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1C717762823A0C40063B9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F5D9A6283370A900F16508 /* CarInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoViewController.swift; sourceTree = "<group>"; };
+		F1F5D9A8283370C700F16508 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +90,15 @@
 			children = (
 				F1C717682823A0BF0063B9E8 /* AppDelegate.swift */,
 				F1C7176A2823A0BF0063B9E8 /* SceneDelegate.swift */,
-				F1C7176C2823A0BF0063B9E8 /* ViewController.swift */,
 				F1C7176E2823A0BF0063B9E8 /* Main.storyboard */,
+				F1F5D9A6283370A900F16508 /* CarInfoViewController.swift */,
+				F1F5D9A8283370C700F16508 /* MapViewController.swift */,
 				F1C717712823A0C40063B9E8 /* Assets.xcassets */,
 				F1C717732823A0C40063B9E8 /* LaunchScreen.storyboard */,
 				F1C717762823A0C40063B9E8 /* Info.plist */,
+				F144447E2834D03400C9B190 /* ProfileViewController.swift */,
+				F15E3682284EAED2000FAF6F /* SheetViewController.swift */,
+				F15E3684284EAF07000FAF6F /* Sheet.storyboard */,
 			);
 			path = EVNav;
 			sourceTree = "<group>";
@@ -151,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15E3685284EAF07000FAF6F /* Sheet.storyboard in Resources */,
 				F1C717752823A0C40063B9E8 /* LaunchScreen.storyboard in Resources */,
 				F1C717722823A0C40063B9E8 /* Assets.xcassets in Resources */,
 				F1C717702823A0BF0063B9E8 /* Main.storyboard in Resources */,
@@ -206,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1C7176D2823A0BF0063B9E8 /* ViewController.swift in Sources */,
+				F15E3683284EAED2000FAF6F /* SheetViewController.swift in Sources */,
+				F144447F2834D03400C9B190 /* ProfileViewController.swift in Sources */,
 				F1C717692823A0BF0063B9E8 /* AppDelegate.swift in Sources */,
 				F1C7176B2823A0BF0063B9E8 /* SceneDelegate.swift in Sources */,
+				F1F5D9A9283370C700F16508 /* MapViewController.swift in Sources */,
+				F1F5D9A7283370A900F16508 /* CarInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +375,7 @@
 				DEVELOPMENT_TEAM = HCH9WVWKQ6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EVNav/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "CO2-Pilot";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = pk.eyJ1IjoiZGllZ29hbTI4IiwiYSI6ImNsMnI2MTgydTBnMTYzZXF2MDdsZHlyYXcifQ.P17ggszhO1Z2Rroq4f6vNA;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Shows your location on the map and helps improve the map";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -366,6 +383,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,6 +408,7 @@
 				DEVELOPMENT_TEAM = HCH9WVWKQ6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EVNav/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "CO2-Pilot";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = pk.eyJ1IjoiZGllZ29hbTI4IiwiYSI6ImNsMnI2MTgydTBnMTYzZXF2MDdsZHlyYXcifQ.P17ggszhO1Z2Rroq4f6vNA;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Shows your location on the map and helps improve the map";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -397,6 +416,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
