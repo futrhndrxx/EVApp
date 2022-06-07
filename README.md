@@ -17,6 +17,8 @@ Required Software: Xcode, CocoaPods
           ~ Token to access MapBox services
     * Key: Privacy - Location Always and When In Use Usage Description, 
       Value: pk.eyJ1IjoiZGllZ29hbTI4IiwiYSI6ImNsMnI2MTgydTBnMTYzZXF2MDdsZHlyYXcifQ.P17ggszhO1Z2Rroq4f6vNA
+- In the top center, change the simulation to iPhone 11
+- After that build and run the application using the Play button on the top Left
       
 If issues connecting occur follow these steps in the Terminal:
   - $ cd ~
